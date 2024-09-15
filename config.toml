@@ -1,0 +1,45 @@
+baseURL = "https://www.iothacking101.com/"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "IoT Hacking 101"
+theme = "ace"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = "G-59JTN2T1N9"
+
+[params]
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableSearch = false # default is false
+disableReadmoreNav = false # set true to hide prev/next navigation, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "Discord"
+url = "https://discord.gg/nXSaazKW9j"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i>"
+url = "#"
+weight = 2
+
+[[menu.shortcuts]]
+name = "<button class='btn btn-danger mt-n1'>Devices</button>"
+url = "#"
+weight = 3
