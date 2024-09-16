@@ -1,12 +1,13 @@
-# RFS IoT Hacking 101
+# Network Pentesting
 
 
 ## Key topics to be covered
 
-- Wifi Security
-- Bluetooth Security
-- Lora Security
-- RFID Security
-- NFC Security
-- ZigBee Security
-- NRF Security
+- SSH Penetration Testing
+- SMTP Penetration Testing
+- SNMP Penetration Testing
+- POP3 Penetration Testing
+- IMAP Penetration Testing
+- IPMI Penetration Testing
+- Telnet Penetration Testing
+- FTP Penetration Testing
